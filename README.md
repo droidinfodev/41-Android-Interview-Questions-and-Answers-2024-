@@ -1,4 +1,5 @@
 ----------------### Role of System Apps in the Android Stack-----------------------------------
+
 System apps in the **Android stack** play a critical role in managing, enhancing, and extending the functionality of the Android operating system. These apps are pre-installed on Android devices and are provided by the device manufacturer or Google itself. They work in conjunction with the Android framework, operating system, and hardware to deliver a cohesive user experience. Unlike third-party apps that users install manually, system apps are integral to the core operation of the Android system, often responsible for essential services, device management, and user interaction.
 
 ### Role of System Apps in the Android Stack:
@@ -84,6 +85,7 @@ System apps in the **Android stack** play a critical role in managing, enhancing
 System apps in the **Android stack** are fundamental components that enable Android devices to function effectively and efficiently. They provide critical system services, manage hardware interactions, and ensure seamless user experiences. These apps handle everything from device security, network management, and multimedia to app installation, system updates, and device configuration. By offering key functionalities that users rely on daily, system apps ensure the device remains secure, user-friendly, and capable of performing essential tasks. System apps are tightly integrated into the Android operating system, acting as a bridge between the user and the underlying Android framework, hardware, and services.
 
 ----------------### Role of the Java API Framework in the Android Stack-----------------------------------
+
 The **Java API Framework** in the Android stack plays a crucial role in providing the essential building blocks for Android applications. It serves as the primary interface for Android developers to interact with the Android system and provides the necessary abstractions to access device features, resources, and services. The framework allows developers to write applications in Java (or Kotlin, which runs on the Java Virtual Machine) without needing to interact directly with lower-level components like the Linux Kernel or Native Libraries.
 
 ### Role of the Java API Framework in the Android Stack:
@@ -149,6 +151,7 @@ The **Java API Framework** in the Android stack plays a crucial role in providin
 The **Java API Framework** in the Android stack is the primary layer that provides Android app developers with the essential tools and APIs for building robust, interactive, and feature-rich applications. It abstracts away much of the complexity of interacting directly with the hardware and system components, enabling developers to focus on creating high-level application logic. From user interface development, system service access, and data storage to networking, security, and background tasks, the Java API Framework provides all the core functionalities needed to create full-fledged Android applications. By offering a rich set of APIs, this framework ensures that developers can easily integrate hardware features, handle inter-process communication, manage resources, and maintain performance on Android devices.
 
 ----------------role of native c/c++ Libraries in android stack-----------------------------------
+
 The **Native C/C++ Libraries** in the Android stack are an essential part of the Android operating system, providing lower-level functionalities that help optimize the performance of applications and allow access to system resources that cannot be accessed using Java-based Android APIs. These libraries are typically written in C and C++ and are used for critical tasks where performance, memory control, or hardware access is key. They are part of the broader **Android Native Development Kit (NDK)**, which provides the necessary tools and libraries for writing native code.
 
 ### Role of Native C/C++ Libraries in the Android Stack:
@@ -225,6 +228,7 @@ The **Native C/C++ Libraries** in the Android stack are an essential part of the
 The **Native C/C++ Libraries** in the Android stack provide essential low-level functionality that helps optimize performance, enables hardware access, and allows integration with existing native code. These libraries are used in areas such as multimedia processing, game development, system-level services, security, and hardware interaction. By leveraging these native libraries, Android applications can achieve faster execution, access specialized hardware features, and perform resource-intensive tasks more efficiently. The **Android Native Development Kit (NDK)** facilitates the use of these libraries, enabling developers to write high-performance, cross-platform code for their Android apps.
 
 ----------------role of android runtime in android stack-----------------------------------
+
 The **Android Runtime (ART)** is a critical component in the Android operating system stack, responsible for executing Android applications. It serves as the runtime environment for Android apps and provides an essential bridge between the Android framework and the underlying hardware. ART plays a vital role in ensuring that Android applications run efficiently, reliably, and with optimal performance.
 
 ### Role of Android Runtime (ART) in the Android Stack:
@@ -282,6 +286,7 @@ The **Android Runtime (ART)** is a critical component in the Android operating s
 The **Android Runtime (ART)** is essential for the execution of Android applications, providing an environment where Android apps are compiled, optimized, and executed efficiently. It uses a combination of **JIT and AOT compilation**, improving the performance of apps by reducing startup times and optimizing runtime efficiency. ART’s advanced memory management and garbage collection capabilities ensure that Android applications run smoothly and efficiently, contributing to better app performance, lower power consumption, and overall system stability. By handling the execution of bytecode and native code, ART provides a reliable, cross-platform runtime environment that abstracts away hardware-specific details, enabling Android apps to run across a wide variety of devices.
 
 ----------------role of Hardware Abstraction Layer (HAL) in android stack-----------------------------------
+
 The **Hardware Abstraction Layer (HAL)** in the Android stack plays a crucial role in abstracting the details of the underlying hardware and providing a standardized interface between the Android operating system and the device's hardware components. This allows Android to run on a wide variety of devices with different hardware configurations, while ensuring that developers can interact with the hardware in a consistent way.
 
 ### Role of the Hardware Abstraction Layer (HAL) in the Android Stack:
@@ -333,6 +338,7 @@ For instance:
 In essence, the **Hardware Abstraction Layer (HAL)** enables Android to run on diverse hardware platforms by providing a standardized interface for hardware interaction, making Android development more flexible, portable, and adaptable to different devices.
 
 -------------------------------------------------------role of Linux Kernel Layer in android stack ----------------------------------------------------------------------
+
 The **Linux Kernel Layer** in the Android stack is a foundational component that serves as the core of the Android operating system. It is responsible for managing the low-level interactions between the hardware and the software, providing essential services for the functioning of Android devices. The kernel is responsible for essential operations such as process management, memory management, hardware abstraction, and security, making it a crucial part of the Android stack.
 
 ### Role of the Linux Kernel Layer in the Android Stack:
